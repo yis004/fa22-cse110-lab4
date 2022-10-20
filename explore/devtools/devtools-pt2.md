@@ -1,0 +1,2 @@
+1. The bug is that num1 and num2 are both strings not integers. Therefore num1+num2 is the expression to concatenate two strings, instead of mathmatical addition
+2.  I will call parseInt onto both num1 and num2, and then do the addition. This will trigger mathmatical calculation instead of string concatenation
