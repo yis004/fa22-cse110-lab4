@@ -19,10 +19,10 @@
  (a). '32', because integers 2 map to the string representation '2', and combine is '32'
  (b). 1, because the string '3' is map to the integer 3, and 3 - 2 = 1
  (c). 3, because null coerces to 0, and 3 + 0 = 3
- (d). '3', because original string plus empty string is still equals to the original string. 
+ (d). '3null', because original string plus empty string is still equals to the original string. 
  (e). 4. because true maps to 1 and 3 + 1 = 4
  (f). 0, because false maps to 0 and empty string is 0, so 0 + 0 = 0
- (g). '3undefine' because undefine has been maps to its string representation 'undefine', and '3' concatenate with 'undefine' is '3undefine'
+ (g). '3undefined' because undefine has been maps to its string representation 'undefine', and '3' concatenate with 'undefine' is '3undefine'
  (h). NaN, because a string with letters can not be converted into numbers, therefore the subtraction is invalid operation which returns Not-A-Number
 14. 
 (a). true, since the string '2' maps to integer 2, and 2 is greater than 1
@@ -32,7 +32,7 @@
 (e). false, because true maps to 1, and 1 is not equal to 2, therefore it is false
 (f). true, because any integer greater than 0 is maps to true in boolean value, and both sides are the same data type, therefore true === true
 15.  The different between == and === is that == compares the value despite their data type, but === not only compares the value stored but also both sides' data types
-17. [2,3,6] will be the result. First, the code calls the modifyArray function and use [1,2,3] and the function doSomething as input. Inside modifyArray function, it creates a newArr array that stores the values to return. Then, the for loop iterate through the array originally passed into the function. In this case, it's [1,2,3]. Inside the for loop, it calls doSomething function with each value as input and multiply that value by 2, and then it stores that result into newArr. After the for loop, the function returns newArr, which stores [2,4,6].
+17. [2,4,6] will be the result. First, the code calls the modifyArray function and use [1,2,3] and the function doSomething as input. Inside modifyArray function, it creates a newArr array that stores the values to return. Then, the for loop iterate through the array originally passed into the function. In this case, it's [1,2,3]. Inside the for loop, it calls doSomething function with each value as input and multiply that value by 2, and then it stores that result into newArr. After the for loop, the function returns newArr, which stores [2,4,6].
 19. 
 1
 4
